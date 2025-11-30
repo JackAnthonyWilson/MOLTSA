@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Heat_of_Mixing_CsF_NaF_Lumsden",
+        "selected": true,
+        "comments": "",
+        "date": "19/Nov/2024 15:28:42",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Heat of mixing",
+        "phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "CsF",
+                "reference_phase": "MSFL#1",
+                "unit": "mol",
+                "value": [
+                    0,
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    1
+                ]
+            },
+            {
+                "formula": "NaF",
+                "reference_phase": "MSFL#1",
+                "unit": "mol",
+                "value": [
+                    1,
+                    0.9,
+                    0.8,
+                    0.7,
+                    0.6,
+                    0.5,
+                    0.4,
+                    0.3,
+                    0.2,
+                    0.1,
+                    0
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "temperature": {
+            "value": 1273,
+            "unit": "K"
+        },
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Lumsden"
+        },
+        "mv": [
+            {
+                "condition": "deltaH",
+                "value": [
+                    0,
+                    338.904,
+                    602.496,
+                    790.776,
+                    903.744,
+                    941.4,
+                    903.744,
+                    790.776,
+                    602.496,
+                    338.904,
+                    0
+                ],
+                "unit": "J"
+            }
+        ]
+    }
+]

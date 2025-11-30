@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Liquidus_CsF2Li_Bukhalova_Sementsova",
+        "selected": true,
+        "comments": "",
+        "date": "12/Nov/2024 16:18:09",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Liquidus temperature",
+        "liquid_phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "CsF",
+                "unit": "mole fraction",
+                "value": [
+                    0.6
+                ]
+            },
+            {
+                "formula": "LiF",
+                "unit": "mole fraction",
+                "value": [
+                    0.4
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "LiCsF2_S1(s)",
+            "LiCsF2_S2(s2)"
+        ],
+        "table": {
+            "id": [
+                1
+            ],
+            "active": [
+                true
+            ],
+            "weight": 1,
+            "reference": ""
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    761.73
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Liquidus_LiF_CsF_Piro",
+        "selected": true,
+        "comments": "",
+        "date": "12/Nov/2024 16:58:08",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Liquidus temperature",
+        "liquid_phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "CsF",
+                "unit": "mole fraction",
+                "value": [
+                    0.253,
+                    0.151,
+                    0,
+                    0.349,
+                    0.449
+                ]
+            },
+            {
+                "formula": "LiF",
+                "unit": "mole fraction",
+                "value": [
+                    0.747,
+                    0.849,
+                    1,
+                    0.651,
+                    0.5509999999999999
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "CsF_FM3M_No.225(s)",
+            "LiF_FM3M_No.225(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": ""
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    1007.6,
+                    1069.4,
+                    1120.9,
+                    938.5,
+                    831.6
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

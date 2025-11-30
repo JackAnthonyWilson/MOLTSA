@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Solidus_KCl_K2CrCl4_Gut",
+        "selected": true,
+        "comments": "",
+        "date": "13/Sep/2024 13:46:42",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Solidus temperature",
+        "liquid_phase": "MSCL#1",
+        "components": [
+            {
+                "formula": "CrCl2",
+                "unit": "mole fraction",
+                "value": [
+                    0.182,
+                    0.253,
+                    0.281
+                ]
+            },
+            {
+                "formula": "KCl",
+                "unit": "mole fraction",
+                "value": [
+                    0.8180000000000001,
+                    0.747,
+                    0.719
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "FM3M#1",
+            "K2CrCl4_S1(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3
+            ],
+            "active": [
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Gut"
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    754.903,
+                    754.825,
+                    754.794
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

@@ -1,0 +1,157 @@
+Species,phase,Temp (K),Cp,Author,Link
+ZrCl4,solid,8.46,1.656,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,8.99,1.851,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,9.48,2.195,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,10.06,2.537,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,11.05,2.993,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,12.21,3.893,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,13.38,4.933,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,14.36,5.948,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,15.3,6.785,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,16.46,7.876,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,17.74,9.148,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,18.98,10.43,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,20.1,11.73,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,22.45,14.24,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,23.69,15.69,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,24.99,17.21,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,26.3,18.75,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,27.62,20.29,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,28.83,21.68,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,29.95,23,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,31.23,24.52,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,32.66,26.03,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,33.83,27.59,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,36.34,30.4,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,38.31,32.57,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,40.76,36.14,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,44.99,39.47,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,46.85,41.34,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,48.99,43.43,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,51.39,45.52,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,53.6,47.5,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,55.68,49.18,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,57.63,50.86,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,59.49,52.38,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,61.26,53.84,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,62.95,55.13,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,67.61,58.6,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,70,60.32,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,72.29,61.81,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,76.56,64.61,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,79.58,66.46,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,86.09,70.57,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,88.75,72.08,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,91.78,73.47,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,94.85,75.16,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,98.48,77.2,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,102.61,78.9,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,106.57,80.76,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,110.39,82.47,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,114.09,83.97,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,117.69,85.38,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,121.18,86.78,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,124.97,88.17,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,129.01,89.64,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,132.96,90.93,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,136.82,92.17,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,140.59,93.35,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,144.3,94.5,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,147.93,95.52,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,151.51,96.5,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,155.02,97.34,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,158.46,98.23,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,162.46,99.12,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,164.98,99.59,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,167.73,100.45,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,170.73,101.2,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,174.06,101.93,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,178.02,102.72,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,182.22,103.6,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,186.35,103.99,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,190.42,105,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,194.43,105.56,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,198.59,106.66,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,202.69,106.94,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,206.51,107.74,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,210.41,108.28,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,214.21,108.88,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,217.98,109.29,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,222,109.93,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,226.28,110.46,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,230.16,111.05,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,234.32,111.56,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,238.24,111.89,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,242.1,112.29,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,246.12,112.59,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,248.26,112.85,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,252.44,113.21,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,256.51,113.46,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,260.51,113.9,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,264.45,114.22,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,268.35,114.6,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,272.2,115.17,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,276.02,115.17,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,279.86,115.39,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,284.22,115.81,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,288.42,115.8,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,295.74,116.77,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,291.41,116.6,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,300.17,116.88,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,302.83,117.24,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,305.41,117.32,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,308.02,117.82,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,310.6,118,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,313.18,118.21,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,315.7,118.16,Efimov et al. (1989),doi.org/10.1016/0021-9614(89)90049-9
+ZrCl4,solid,52.6,47.02816,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,55.9,49.62224,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,60,52.84392,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,64.9,56.60952,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,69.3,59.8312,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,74,63.01104,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,80,66.86032,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,83.9,69.16152,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,94.8,75.14464,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,104.6,80.1236,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,114.6,84.68416,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,124.7,88.74264,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,136.1,93.01032,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,146.3,96.10648,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,156.2,98.99344,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,166.3,101.462,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,176.3,104.05608,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,186.4,105.98072,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,196.4,107.738,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,206.7,109.4116,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,216.6,111.00152,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,226.7,112.08936,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,236.4,113.42824,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,246.3,114.51608,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,256.5,115.72944,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,266.4,116.90096,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,276.5,117.86328,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,286.8,118.70008,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,296.7,119.78792,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,solid,298.16,119.8716,Todd (1950),pubs.acs.org/doi/10.1021/ja01163a031
+ZrCl4,gas,250,94.5,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,300,97.9,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,350,100.3,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,400,101.9,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,450,103.1,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,500,104,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,600,105.2,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,700,105.9,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,800,106.4,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,900,106.8,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,1000,107,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,1100,107.2,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,1200,107.3,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,1300,107.4,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,1400,107.5,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,1500,107.6,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,1600,107.7,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,1700,107.7,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,1800,107.8,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,1900,107.8,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A
+ZrCl4,gas,2000,107.8,Hemery et al. (1995),doi.org/10.1002/(SICI)1097-461X(1997)61:3<483::AID-QUA15>3.0.CO;2-A

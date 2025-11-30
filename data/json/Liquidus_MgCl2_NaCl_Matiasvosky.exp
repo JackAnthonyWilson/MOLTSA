@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Liquidus_MgCl2_NaCl_Matiasvosky",
+        "selected": true,
+        "comments": "Matiasvosky's graph is incorrect for liquidus lines. ",
+        "date": "22/Oct/2024 15:39:16",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Liquidus temperature",
+        "liquid_phase": "MSCL#1",
+        "components": [
+            {
+                "formula": "MgCl2",
+                "unit": "mole fraction",
+                "value": [
+                    0.673,
+                    0.792,
+                    0.891,
+                    1,
+                    0.617
+                ]
+            },
+            {
+                "formula": "NaCl",
+                "unit": "mole fraction",
+                "value": [
+                    0.32699999999999996,
+                    0.20799999999999996,
+                    0.10899999999999999,
+                    0,
+                    0.383
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "FM3M#1",
+            "MgCl2_R3M_No.166(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Matiasvosky"
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    787.285,
+                    867.712,
+                    924.045,
+                    983.84,
+                    742.502
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

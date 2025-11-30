@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Solidus_NaMgCl3_Na2MgCl4_Scholich",
+        "selected": true,
+        "comments": "",
+        "date": "23/Oct/2024 15:37:01",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Solidus temperature",
+        "liquid_phase": "MSCL#1",
+        "components": [
+            {
+                "formula": "NaCl",
+                "unit": "mole fraction",
+                "value": [
+                    0.501,
+                    0.545,
+                    0.593
+                ]
+            },
+            {
+                "formula": "MgCl2",
+                "unit": "mole fraction",
+                "value": [
+                    0.499,
+                    0.45499999999999996,
+                    0.40700000000000003
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "Na2MgCl4_S1(s)",
+            "NaMgCl3_S1(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3
+            ],
+            "active": [
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": ""
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    714.998,
+                    715.345,
+                    715.033
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Solidus_Na2MgCl4_NaMgCl3_Matiasvosky",
+        "selected": true,
+        "comments": "Matiasvosky's graph is incorrect compares to Pelton's. ",
+        "date": "22/Oct/2024 15:55:01",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Solidus temperature",
+        "liquid_phase": "MSCL#1",
+        "components": [
+            {
+                "formula": "MgCl2",
+                "unit": "mole fraction",
+                "value": [
+                    0.451,
+                    0.55,
+                    0.596,
+                    0.615
+                ]
+            },
+            {
+                "formula": "NaCl",
+                "unit": "mole fraction",
+                "value": [
+                    0.5489999999999999,
+                    0.44999999999999996,
+                    0.404,
+                    0.385
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "Na2MgCl4_S1(s)",
+            "NaMgCl3_S1(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Matiasvosky"
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    723.802,
+                    724.027,
+                    725.279,
+                    724.177
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

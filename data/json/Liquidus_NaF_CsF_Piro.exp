@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Liquidus_NaF_CsF_Piro",
+        "selected": true,
+        "comments": "",
+        "date": "14/Nov/2024 10:28:40",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Liquidus temperature",
+        "liquid_phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "CsF",
+                "unit": "mole fraction",
+                "value": [
+                    0,
+                    0.05,
+                    0.12,
+                    0.3,
+                    0.41,
+                    0.55,
+                    0.6,
+                    0.66,
+                    0.7,
+                    0.7
+                ]
+            },
+            {
+                "formula": "NaF",
+                "unit": "mole fraction",
+                "value": [
+                    1,
+                    0.95,
+                    0.88,
+                    0.7,
+                    0.5900000000000001,
+                    0.44999999999999996,
+                    0.4,
+                    0.33999999999999997,
+                    0.30000000000000004,
+                    0.30000000000000004
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "CsF_FM3M_No.225(s)",
+            "NaF_FM3M_No.225(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": ""
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    1273.6,
+                    1262.6,
+                    1240.7,
+                    1177,
+                    1140.85,
+                    1057.1,
+                    1036.45,
+                    971.7,
+                    940.6,
+                    934.55
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

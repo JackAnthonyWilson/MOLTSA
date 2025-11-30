@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Solidus_CsF_LiF_Piro",
+        "selected": true,
+        "comments": "",
+        "date": "12/Nov/2024 16:58:16",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Solidus temperature",
+        "liquid_phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "CsF",
+                "unit": "mole fraction",
+                "value": [
+                    0.825,
+                    0.753,
+                    0.85,
+                    0.651,
+                    0.711,
+                    0.52,
+                    0.555
+                ]
+            },
+            {
+                "formula": "LiF",
+                "unit": "mole fraction",
+                "value": [
+                    0.17500000000000004,
+                    0.247,
+                    0.15000000000000002,
+                    0.349,
+                    0.28900000000000003,
+                    0.48,
+                    0.44499999999999995
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "CsF_FM3M_No.225(s)",
+            "LiCsF2_S1(s)",
+            "LiCsF2_S2(s2)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": ""
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    751.7,
+                    751.8,
+                    751.9,
+                    752.2,
+                    752.6,
+                    752.7,
+                    752.6
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

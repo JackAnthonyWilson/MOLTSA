@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Heat_Mixing_LiCl_LiBr_Melnichak",
+        "selected": true,
+        "comments": "",
+        "date": "08/Feb/2024 15:19:19",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Heat of mixing",
+        "phase": "MSCL#1",
+        "components": [
+            {
+                "formula": "LiCl",
+                "reference_phase": "MSCL#1",
+                "unit": "mol",
+                "value": [
+                    0.1253,
+                    0.2,
+                    0.2998,
+                    0.4,
+                    0.5,
+                    0.6,
+                    0.6999,
+                    0.8001
+                ]
+            },
+            {
+                "formula": "LiBr",
+                "reference_phase": "MSCL#1",
+                "unit": "mol",
+                "value": [
+                    0.8747,
+                    0.8,
+                    0.7002,
+                    0.6,
+                    0.5,
+                    0.4,
+                    0.3001,
+                    0.1999
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "temperature": {
+            "value": 629,
+            "unit": "C"
+        },
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Melnichak 1972"
+        },
+        "mv": [
+            {
+                "condition": "deltaH",
+                "value": [
+                    8.254188422,
+                    18.74432,
+                    21.0793227,
+                    34.14144,
+                    37.656,
+                    32.13312,
+                    35.15229273,
+                    25.42917889
+                ],
+                "unit": "J"
+            }
+        ]
+    }
+]

@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Liquidus_LiF_CsF_Thoma",
+        "selected": true,
+        "comments": "",
+        "date": "12/Nov/2024 16:10:32",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Liquidus temperature",
+        "liquid_phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "CsF",
+                "unit": "mole fraction",
+                "value": [
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4
+                ]
+            },
+            {
+                "formula": "LiF",
+                "unit": "mole fraction",
+                "value": [
+                    0.9,
+                    0.8,
+                    0.7,
+                    0.6
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "CsF_FM3M_No.225(s)",
+            "LiF_FM3M_No.225(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": ""
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    1086.79,
+                    1036.66,
+                    966.31,
+                    874.12
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

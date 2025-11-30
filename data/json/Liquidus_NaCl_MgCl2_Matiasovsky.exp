@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Liquidus_NaCl_MgCl2_Matiasovsky",
+        "selected": true,
+        "comments": "NaCl Liquidus line goes further than Pelton. Doesn't line up quite right. ",
+        "date": "22/Oct/2024 15:41:26",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Liquidus temperature",
+        "liquid_phase": "MSCL#1",
+        "components": [
+            {
+                "formula": "MgCl2",
+                "unit": "mole fraction",
+                "value": [
+                    0,
+                    0.097,
+                    0.147,
+                    0.199,
+                    0.302,
+                    0.348,
+                    0.448,
+                    0.495,
+                    0.548
+                ]
+            },
+            {
+                "formula": "NaCl",
+                "unit": "mole fraction",
+                "value": [
+                    1,
+                    0.903,
+                    0.853,
+                    0.8009999999999999,
+                    0.698,
+                    0.652,
+                    0.552,
+                    0.505,
+                    0.45199999999999996
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "FM3M#1",
+            "MgCl2_R3M_No.166(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Matiasvosky"
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    1073.15,
+                    1040.165,
+                    1018.524,
+                    995.742,
+                    934.146,
+                    898.757,
+                    825.703,
+                    783.443,
+                    737.764
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

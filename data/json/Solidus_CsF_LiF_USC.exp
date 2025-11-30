@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Solidus_CsF_LiF_USC",
+        "selected": true,
+        "comments": "",
+        "date": "12/Nov/2024 17:06:44",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Solidus temperature",
+        "liquid_phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "CsF",
+                "unit": "mole fraction",
+                "value": [
+                    0.55,
+                    0.75,
+                    0.55
+                ]
+            },
+            {
+                "formula": "LiF",
+                "unit": "mole fraction",
+                "value": [
+                    0.44999999999999996,
+                    0.25,
+                    0.44999999999999996
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "CsF_FM3M_No.225(s)",
+            "LiCsF2_S1(s)",
+            "LiCsF2_S2(s2)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3
+            ],
+            "active": [
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": ""
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    742.6,
+                    758.6,
+                    763
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

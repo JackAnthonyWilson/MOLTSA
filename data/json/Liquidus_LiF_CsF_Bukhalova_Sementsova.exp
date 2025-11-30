@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Liquidus_LiF_CsF_Bukhalova_Sementsova",
+        "selected": true,
+        "comments": "Point at 0.50 CsF is skewed from the liquidus curve. Closest to the LiF liquidus curve, rather than the eutectic/liquidus of CsF2Li. ",
+        "date": "12/Nov/2024 16:17:41",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Liquidus temperature",
+        "liquid_phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "CsF",
+                "unit": "mole fraction",
+                "value": [
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5
+                ]
+            },
+            {
+                "formula": "LiF",
+                "unit": "mole fraction",
+                "value": [
+                    0.9,
+                    0.8,
+                    0.7,
+                    0.6,
+                    0.5
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "CsF_FM3M_No.225(s)",
+            "LiF_FM3M_No.225(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Bukhalova"
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    1079.51,
+                    1029.38,
+                    959.84,
+                    894.34,
+                    811.86
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

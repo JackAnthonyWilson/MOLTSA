@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Solidus_K2CrCl4_KCrCl3_Seifert",
+        "selected": true,
+        "comments": "",
+        "date": "13/Sep/2024 13:45:59",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Solidus temperature",
+        "liquid_phase": "MSCL#1",
+        "components": [
+            {
+                "formula": "CrCl2",
+                "unit": "mole fraction",
+                "value": [
+                    0.347,
+                    0.394,
+                    0.443
+                ]
+            },
+            {
+                "formula": "KCl",
+                "unit": "mole fraction",
+                "value": [
+                    0.653,
+                    0.606,
+                    0.5569999999999999
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "K2CrCl4_S1(s)",
+            "KCrCl3_S1(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3
+            ],
+            "active": [
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Seifert"
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    758.078,
+                    757.256,
+                    758.002
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

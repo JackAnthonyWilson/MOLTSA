@@ -1,0 +1,161 @@
+Species 1,Species 2,Mole frac species 1,Mole frac species 2,Temp (K),deltaH,Author,type,Link
+KF,UF4,0.55,0.45,1145,-40040,Schorne-Pinto 2024,H_mix,Heat Mixing KF UF4 Schorne-Pinto.exp
+NaF,UF4,0.55,0.45,1240,-24070,Schorne-Pinto et al. 2024,H_mix,Heat Mixing NaF UF4 Schorne-Pinto.exp
+CsCl,CsI,0,1,1273,0,Momentov 1987,H_mix,Heat_Mixing_CsCl_CsI_Momentov.exp
+CsCl,CsI,0.1261,0.8739,1273,82.53184099,Momentov 1987,H_mix,Heat_Mixing_CsCl_CsI_Momentov.exp
+CsCl,CsI,0.2531,0.7469,1273,128.9240337,Momentov 1987,H_mix,Heat_Mixing_CsCl_CsI_Momentov.exp
+CsCl,CsI,0.3752,0.6248,1273,152.0292751,Momentov 1987,H_mix,Heat_Mixing_CsCl_CsI_Momentov.exp
+CsCl,CsI,0.4975,0.5025,1273,166.3098422,Momentov 1987,H_mix,Heat_Mixing_CsCl_CsI_Momentov.exp
+CsCl,CsI,0.4994,0.5006,1273,167.359759,Momentov 1987,H_mix,Heat_Mixing_CsCl_CsI_Momentov.exp
+CsCl,CsI,0.5013,0.4987,1273,167.3588686,Momentov 1987,H_mix,Heat_Mixing_CsCl_CsI_Momentov.exp
+CsCl,CsI,0.6258,0.3742,1273,145.9880428,Momentov 1987,H_mix,Heat_Mixing_CsCl_CsI_Momentov.exp
+CsCl,CsI,0.7493,0.2507,1273,118.6803148,Momentov 1987,H_mix,Heat_Mixing_CsCl_CsI_Momentov.exp
+CsCl,CsI,0.874,0.126,1273,65.42775187,Momentov 1987,H_mix,Heat_Mixing_CsCl_CsI_Momentov.exp
+CsCl,CsI,1,0,1273,0,Momentov 1987,H_mix,Heat_Mixing_CsCl_CsI_Momentov.exp
+CsF,CsI,0,1,1273,0,Momentov 1987,H_mix,Heat_Mixing_CsF_CsI_Momentov.exp
+CsF,CsI,0.17335,0.82665,1273,-715.5763465,Momentov 1987,H_mix,Heat_Mixing_CsF_CsI_Momentov.exp
+CsF,CsI,0.26581,0.73419,1273,-924.4411372,Momentov 1987,H_mix,Heat_Mixing_CsF_CsI_Momentov.exp
+CsF,CsI,0.32008,0.67992,1273,-993.4288354,Momentov 1987,H_mix,Heat_Mixing_CsF_CsI_Momentov.exp
+CsF,CsI,0.41254,0.58746,1273,-1044.101059,Momentov 1987,H_mix,Heat_Mixing_CsF_CsI_Momentov.exp
+CsF,CsI,0.75272,0.24728,1273,-640.6779596,Momentov 1987,H_mix,Heat_Mixing_CsF_CsI_Momentov.exp
+CsF,CsI,0.8171,0.1829,1273,-486.0994483,Momentov 1987,H_mix,Heat_Mixing_CsF_CsI_Momentov.exp
+CsF,CsI,0.85718,0.14282,1273,-386.3949002,Momentov 1987,H_mix,Heat_Mixing_CsF_CsI_Momentov.exp
+CsF,CsI,1,0,1273,0,Momentov 1987,H_mix,Heat_Mixing_CsF_CsI_Momentov.exp
+KCl,KI,0.2,0.8,1085,206.18752,Melnichak 1972,H_mix,Heat_Mixing_KCl_KI_Melnichak.exp
+KCl,KI,0.3,0.7,1085,275.89296,Melnichak 1972,H_mix,Heat_Mixing_KCl_KI_Melnichak.exp
+KCl,KI,0.3998,0.6002,1085,319.2696063,Melnichak 1972,H_mix,Heat_Mixing_KCl_KI_Melnichak.exp
+KCl,KI,0.4999,0.5001,1085,354.5939858,Melnichak 1972,H_mix,Heat_Mixing_KCl_KI_Melnichak.exp
+KCl,KI,0.6,0.4,1085,335.38944,Melnichak 1972,H_mix,Heat_Mixing_KCl_KI_Melnichak.exp
+KCl,KI,0.7,0.3,1085,298.7376,Melnichak 1972,H_mix,Heat_Mixing_KCl_KI_Melnichak.exp
+KCl,KI,0.8,0.2,1085,226.94016,Melnichak 1972,H_mix,Heat_Mixing_KCl_KI_Melnichak.exp
+KCl,KI,0.85,0.15,1085,189.3783,Melnichak 1972,H_mix,Heat_Mixing_KCl_KI_Melnichak.exp
+KF,KI,1,0,1273,0,Mamantov 1987,H_mix,Heat_Mixing_KF_KI_Mamantov.exp
+KF,KI,0.8195,0.1805,1273,317.7970272,Mamantov 1987,H_mix,Heat_Mixing_KF_KI_Mamantov.exp
+KF,KI,0.78574,0.21426,1273,316.0516263,Mamantov 1987,H_mix,Heat_Mixing_KF_KI_Mamantov.exp
+KF,KI,0.77235,0.22765,1273,318.832356,Mamantov 1987,H_mix,Heat_Mixing_KF_KI_Mamantov.exp
+KF,KI,0.39457,0.60543,1273,-142.4876952,Mamantov 1987,H_mix,Heat_Mixing_KF_KI_Mamantov.exp
+KF,KI,0.28354,0.71646,1273,-263.1387963,Mamantov 1987,H_mix,Heat_Mixing_KF_KI_Mamantov.exp
+KF,KI,0.2297,0.7703,1273,-268.5245959,Mamantov 1987,H_mix,Heat_Mixing_KF_KI_Mamantov.exp
+KF,KI,0.20446,0.79554,1273,-286.2951023,Mamantov 1987,H_mix,Heat_Mixing_KF_KI_Mamantov.exp
+KF,KI,0.13054,0.86946,1273,-252.5227771,Mamantov 1987,H_mix,Heat_Mixing_KF_KI_Mamantov.exp
+KF,KI,0,1,1273,0,Mamantov 1987,H_mix,Heat_Mixing_KF_KI_Mamantov.exp
+KF,KI,0,1,1130,0,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.05,0.95,1130,-186.169125,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.1,0.9,1130,-323.613,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.15,0.85,1130,-417.186375,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.2,0.8,1130,-471.744,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.25,0.75,1130,-492.140625,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.3,0.7,1130,-483.231,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.35,0.65,1130,-449.869875,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.4,0.6,1130,-396.912,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.45,0.55,1130,-329.212125,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.5,0.5,1130,-251.625,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.55,0.45,1130,-169.005375,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.6,0.4,1130,-86.208,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.65,0.35,1130,-8.087625,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.7,0.3,1130,60.501,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.75,0.25,1130,114.703125,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.8,0.2,1130,149.664,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.85,0.15,1130,160.528875,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.9,0.1,1130,142.443,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0.95,0.05,1130,90.551625,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KF,KI,0,1,1130,1,Sangster 1987,H_mix,Heat_Mixing_KF_KI_Sangster.exp
+KCl,KI,0,1,1085,0,Melnichak 1972,H_mix,Heat_Mixing_KI_KCl_Melnichak.exp
+KCl,KI,0.2,0.8,1085,340.3824636,Melnichak 1972,H_mix,Heat_Mixing_KI_KCl_Melnichak.exp
+KCl,KI,0.3,0.7,1085,533.7885612,Melnichak 1972,H_mix,Heat_Mixing_KI_KCl_Melnichak.exp
+KCl,KI,0.3998,0.6002,1085,610.0835085,Melnichak 1972,H_mix,Heat_Mixing_KI_KCl_Melnichak.exp
+KCl,KI,0.4999,0.5001,1085,628.0685209,Melnichak 1972,H_mix,Heat_Mixing_KI_KCl_Melnichak.exp
+KCl,KI,0.6,0.4,1085,450.3934641,Melnichak 1972,H_mix,Heat_Mixing_KI_KCl_Melnichak.exp
+KCl,KI,0.7,0.3,1085,266.9830353,Melnichak 1972,H_mix,Heat_Mixing_KI_KCl_Melnichak.exp
+KCl,KI,0.8,0.2,1085,102.8518056,Melnichak 1972,H_mix,Heat_Mixing_KI_KCl_Melnichak.exp
+KCl,KI,0.85,0.15,1085,53.64774606,Melnichak 1972,H_mix,Heat_Mixing_KI_KCl_Melnichak.exp
+KCl,KI,1,0,1085,0,Melnichak 1972,H_mix,Heat_Mixing_KI_KCl_Melnichak.exp
+LiBr,LiCl,0.8747,0.1253,902,8.254188422,Melnichak 1972,H_mix,Heat_Mixing_LiCl_LiBr_Melnichak.exp
+LiBr,LiCl,0.8,0.2,902,18.74432,Melnichak 1972,H_mix,Heat_Mixing_LiCl_LiBr_Melnichak.exp
+LiBr,LiCl,0.7002,0.2998,902,21.0793227,Melnichak 1972,H_mix,Heat_Mixing_LiCl_LiBr_Melnichak.exp
+LiBr,LiCl,0.6,0.4,902,34.14144,Melnichak 1972,H_mix,Heat_Mixing_LiCl_LiBr_Melnichak.exp
+LiBr,LiCl,0.5,0.5,902,37.656,Melnichak 1972,H_mix,Heat_Mixing_LiCl_LiBr_Melnichak.exp
+LiBr,LiCl,0.4,0.6,902,32.13312,Melnichak 1972,H_mix,Heat_Mixing_LiCl_LiBr_Melnichak.exp
+LiBr,LiCl,0.3001,0.6999,902,35.15229273,Melnichak 1972,H_mix,Heat_Mixing_LiCl_LiBr_Melnichak.exp
+LiBr,LiCl,0.1999,0.8001,902,25.42917889,Melnichak 1972,H_mix,Heat_Mixing_LiCl_LiBr_Melnichak.exp
+LiBr,LiCl,1,0,903,0,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.95,0.05,903,4.1,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.9,0.1,903,8.2,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.85,0.15,903,12.4,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.8,0.2,903,16.4,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.75,0.25,903,20.3,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.7,0.3,903,23.9,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.65,0.35,903,27.2,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.6,0.4,903,30,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.55,0.45,903,32.4,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.5,0.5,903,34.1,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.45,0.55,903,35.2,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.4,0.6,903,35.5,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.35,0.65,903,34.9,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.3,0.7,903,33.4,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.25,0.75,903,30.9,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.2,0.8,903,27.3,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.15,0.85,903,22.4,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.1,0.9,903,16.4,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0.05,0.95,903,8.9,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiBr,LiCl,0,1,903,0,Sangster 1987,H_mix,Heat_Mixing_LiCl_LiBr_Sangster.exp
+LiCl,LiI,1,0,906,0,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.95,0.05,906,67.659,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.9,0.1,906,131.022,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.85,0.15,906,189.618,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.8,0.2,906,242.976,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.75,0.25,906,290.625,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.7,0.3,906,332.094,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.65,0.35,906,366.912,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.6,0.4,906,394.608,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.55,0.45,906,414.711,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.5,0.5,906,426.75,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.45,0.55,906,430.254,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.4,0.6,906,424.752,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.35,0.65,906,409.773,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.3,0.7,906,384.846,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.25,0.75,906,349.5,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.2,0.8,906,303.264,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.15,0.85,906,245.667,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.1,0.9,906,176.238,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0.05,0.95,906,94.506,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiCl,LiI,0,1,906,0,Kleppa 1963,H_mix,Heat_Mixing_LiCl_LiI.exp
+LiBr,LiF,0.856106476,0.143893524,1273,-246.6922243,Mamantov,H_mix,Heat_Mixing_LiF_LiBr_Mamantov1.exp
+LiBr,LiF,0.79759192,0.20240808,1273,-302.9996985,Mamantov,H_mix,Heat_Mixing_LiF_LiBr_Mamantov1.exp
+LiBr,LiF,0.749502927,0.250497073,1273,-341.8040465,Mamantov,H_mix,Heat_Mixing_LiF_LiBr_Mamantov1.exp
+LiBr,LiF,0.666005055,0.333994945,1273,-323.0484372,Mamantov,H_mix,Heat_Mixing_LiF_LiBr_Mamantov1.exp
+LiBr,LiF,0.459157034,0.540842966,1273,-229.059978,Mamantov,H_mix,Heat_Mixing_LiF_LiBr_Mamantov1.exp
+LiBr,LiF,0.27964024,0.72035976,1273,-24.85072635,Mamantov,H_mix,Heat_Mixing_LiF_LiBr_Mamantov1.exp
+LiBr,LiF,0.208604634,0.791395366,1273,10.7032503,Mamantov,H_mix,Heat_Mixing_LiF_LiBr_Mamantov1.exp
+LiBr,LiF,0.154505814,0.845494186,1273,85.40710583,Mamantov,H_mix,Heat_Mixing_LiF_LiBr_Mamantov1.exp
+LiBr,LiF,1,0,1273,0,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0.948430493,0.051569507,1273,-101.7579442,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0.874439462,0.125560538,1273,-221.8651048,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0.81838565,0.18161435,1273,-287.0711813,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0.773542601,0.226457399,1273,-324.0114913,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0.706278027,0.293721973,1273,-357.4896396,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0.650224215,0.349775785,1273,-356.4633135,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0.562780269,0.437219731,1273,-316.2557584,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0.486547085,0.513452915,1273,-252.498367,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0.401345291,0.598654709,1273,-162.6261538,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0.311659193,0.688340807,1273,-59.27495709,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0.226457399,0.773542601,1273,23.05621318,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0.141255605,0.858744395,1273,71.73569522,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0.078475336,0.921524664,1273,70.6478645,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0.033632287,0.966367713,1273,41.38905951,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0.004484305,0.995515695,1273,6.512426227,Mamantov 1987,H_mix,Heat_Mixing_LiF_LiBr_Mamantov2.exp
+LiBr,LiF,0,0,1273,0,Unknown,H_mix,Heat_Mixing_LiF_LiBr_Sangster.exp
+KF,NaF,0.0801,0.9199,1360,-20.92,Hong and Kleppa 1976,H_mix,Heat_Mixing_NaF_KF_Hong_Kleppa.exp
+KF,NaF,0.2732,0.7268,1360,-58.576,Hong and Kleppa 1976,H_mix,Heat_Mixing_NaF_KF_Hong_Kleppa.exp
+KF,NaF,0.4915,0.5085,1360,-87.864,Hong and Kleppa 1976,H_mix,Heat_Mixing_NaF_KF_Hong_Kleppa.exp
+KF,NaF,0.7275,0.2725,1360,-75.312,Hong and Kleppa 1976,H_mix,Heat_Mixing_NaF_KF_Hong_Kleppa.exp
+KF,NaF,0.9164,0.0836,1360,-29.288,Hong and Kleppa 1976,H_mix,Heat_Mixing_NaF_KF_Hong_Kleppa.exp
+NaCl,NaI,0.1502,0.8498,1085,214,Melnichak 1972,H_mix,Heat_Mixing_NaI_NaCl_Melnichak.exp
+NaCl,NaI,0.2001,0.7999,1085,271,Melnichak 1972,H_mix,Heat_Mixing_NaI_NaCl_Melnichak.exp
+NaCl,NaI,0.3001,0.6999,1085,397,Melnichak 1972,H_mix,Heat_Mixing_NaI_NaCl_Melnichak.exp
+NaCl,NaI,0.4001,0.5999,1085,450,Melnichak 1972,H_mix,Heat_Mixing_NaI_NaCl_Melnichak.exp
+NaCl,NaI,0.4999,0.5001,1085,486,Melnichak 1972,H_mix,Heat_Mixing_NaI_NaCl_Melnichak.exp
+NaCl,NaI,0.6001,0.3999,1085,491,Melnichak 1972,H_mix,Heat_Mixing_NaI_NaCl_Melnichak.exp
+NaCl,NaI,0.7001,0.2999,1085,436,Melnichak 1972,H_mix,Heat_Mixing_NaI_NaCl_Melnichak.exp
+NaCl,NaI,0.7999,0.2001,1085,337,Melnichak 1972,H_mix,Heat_Mixing_NaI_NaCl_Melnichak.exp
+NaCl,NaI,0.85,0.15,1085,271,Melnichak 1972,H_mix,Heat_Mixing_NaI_NaCl_Melnichak.exp

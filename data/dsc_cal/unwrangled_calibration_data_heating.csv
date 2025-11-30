@@ -1,0 +1,6 @@
+species,R16,R8,R4,R1.6,temp_c_literature,error_in_literature,literature_reference
+In,162,159.6,157.9,159.8,156.5985,0.00034,Della Gatta
+FLiNaK,470.4,465.7,463.3,461.9,459.75,1.14,Schorne-Pinto
+CsCl,653.2,649.9,648.9,648.4,644.85,1,Kaylor et al. (1959) + Janz&Slowick (1990)
+NaCl,809.4,806.5,806.3,805.7,800.85,1,Glushko et al. (1982)
+Ag,969.5,968.7,968.4,968.2,961.859,0.044,Fox et al. (1991)

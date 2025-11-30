@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Solidus ScSl KCl Secco",
+        "selected": true,
+        "comments": "",
+        "date": "29/Aug/2024 14:40:12",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Solidus temperature",
+        "liquid_phase": "MSCL#1",
+        "components": [
+            {
+                "formula": "KCl",
+                "unit": "mole fraction",
+                "value": [
+                    0,
+                    0.065676717,
+                    0.083463597,
+                    0.102330947,
+                    0.114189634,
+                    0.116887353,
+                    0.161072644,
+                    0.218756886,
+                    0.287756129,
+                    0.372389947,
+                    0.447324863,
+                    0.565934177
+                ]
+            },
+            {
+                "formula": "CsCl",
+                "unit": "mole fraction",
+                "value": [
+                    1,
+                    0.934323283,
+                    0.916536403,
+                    0.897669053,
+                    0.885810366,
+                    0.883112647,
+                    0.838927356,
+                    0.781243114,
+                    0.712243871,
+                    0.627610053,
+                    0.552675137,
+                    0.43406582299999996
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "FM3M#1"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Secco et al. 2004"
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    905.2305229,
+                    888.1547492,
+                    885.4866596,
+                    884.9530416,
+                    883.8858058,
+                    886.0202775,
+                    867.8772679,
+                    870.0117396,
+                    866.810032,
+                    864.6755603,
+                    866.810032,
+                    876.9487727
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

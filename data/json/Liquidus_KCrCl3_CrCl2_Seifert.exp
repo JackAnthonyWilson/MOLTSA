@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Liquidus_KCrCl3_CrCl2_Seifert",
+        "selected": true,
+        "comments": "",
+        "date": "13/Sep/2024 13:46:08",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Liquidus temperature",
+        "liquid_phase": "MSCL#1",
+        "components": [
+            {
+                "formula": "CrCl2",
+                "unit": "mole fraction",
+                "value": [
+                    0.496,
+                    0.545,
+                    0.597,
+                    0.697,
+                    0.797,
+                    0.898,
+                    0.998
+                ]
+            },
+            {
+                "formula": "KCl",
+                "unit": "mole fraction",
+                "value": [
+                    0.504,
+                    0.45499999999999996,
+                    0.403,
+                    0.30300000000000005,
+                    0.20299999999999996,
+                    0.10199999999999998,
+                    0.0020000000000000018
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "CrCl2_Pnnm_No.58(s)",
+            "KCrCl3_S1(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Seifert"
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    790.136,
+                    783.819,
+                    772.007,
+                    932.018,
+                    999.429,
+                    1062.914,
+                    1090.303
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

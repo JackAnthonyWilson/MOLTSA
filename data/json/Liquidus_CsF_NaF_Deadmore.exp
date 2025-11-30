@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Liquidus_CsF_NaF_Deadmore",
+        "selected": true,
+        "comments": "",
+        "date": "14/Nov/2024 10:16:22",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Liquidus temperature",
+        "liquid_phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "CsF",
+                "unit": "mole fraction",
+                "value": [
+                    1,
+                    0.9,
+                    0.73
+                ]
+            },
+            {
+                "formula": "NaF",
+                "unit": "mole fraction",
+                "value": [
+                    0,
+                    0.09999999999999998,
+                    0.27
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "CsF_FM3M_No.225(s)",
+            "NaF_FM3M_No.225(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3
+            ],
+            "active": [
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": ""
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    976.15,
+                    924.6,
+                    908.83
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

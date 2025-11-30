@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Liquidus_NaCl_CrCl2_Seifert",
+        "selected": true,
+        "comments": "",
+        "date": "13/Sep/2024 13:45:10",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Liquidus temperature",
+        "liquid_phase": "MSCL#1",
+        "components": [
+            {
+                "formula": "CrCl2",
+                "unit": "mole fraction",
+                "value": [
+                    0,
+                    0.098,
+                    0.198,
+                    0.296,
+                    0.397
+                ]
+            },
+            {
+                "formula": " NaCl",
+                "unit": "mole fraction",
+                "value": [
+                    1,
+                    0.902,
+                    0.802,
+                    0.704,
+                    0.603
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "FM3M#1",
+            "Na2CrCl4_S1(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Seifert"
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    1082.4,
+                    1040.738,
+                    996.58,
+                    921.654,
+                    810.968
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

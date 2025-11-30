@@ -1,0 +1,115 @@
+[
+    {
+        "name": "Liquidus_CrCl2_NaCl_Shiloff",
+        "selected": true,
+        "comments": "",
+        "date": "10/Sep/2024 15:25:26",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Liquidus temperature",
+        "liquid_phase": "MSCL#1",
+        "components": [
+            {
+                "formula": " CrCl2",
+                "unit": "mole fraction",
+                "value": [
+                    0.003,
+                    0.074,
+                    0.129,
+                    0.155,
+                    0.214,
+                    0.224,
+                    0.243,
+                    0.288,
+                    0.327,
+                    0.35,
+                    0.343,
+                    0.369,
+                    0.401
+                ]
+            },
+            {
+                "formula": "NaCl",
+                "unit": "mole fraction",
+                "value": [
+                    0.997,
+                    0.926,
+                    0.871,
+                    0.845,
+                    0.786,
+                    0.776,
+                    0.757,
+                    0.712,
+                    0.673,
+                    0.65,
+                    0.657,
+                    0.631,
+                    0.599
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "FM3M#1"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Shiloff"
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    1092.756,
+                    1059.283,
+                    1027.802,
+                    1008.144,
+                    968.813,
+                    943.302,
+                    923.657,
+                    878.472,
+                    829.374,
+                    801.88,
+                    786.207,
+                    774.392,
+                    727.269
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

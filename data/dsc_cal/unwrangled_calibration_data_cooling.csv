@@ -1,0 +1,4 @@
+species,R16,R8,R4,R1.6,temp_c_literature,error_in_literature,literature_reference
+In,152.014,152.319,153.703,154.708,156.5985,0.00034,Della Gatta
+CsCl,645.163,646.257,646.852,647.42,644.85,1,Kaylor et al. (1959) + Janz&Slowick (1990)
+NaCl,798.8,799.2,799.7,801.2,800.85,1,Glushko et al. (1982)

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 911" preserveAspectRatio="xMidYMid slice" width="1920" height="911">
+  <defs>
+    <linearGradient id="rgbGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff00ff">
+        <animate attributeName="stop-color" values="#ff00ff; #00ffff; #ff00ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00ffff">
+        <animate attributeName="stop-color" values="#00ffff; #ff00ff; #00ffff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Layered animated waves -->
+  <g>
+    <path opacity="0.4" fill="url(#rgbGradient)" d="M0,0 L0,534 Q192,519 384,479 T768,463 T1152,409 T1536,305 T1920,325 L1920,0 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 30; 0 0" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path opacity="0.4" fill="url(#rgbGradient)" d="M0,0 L0,541 Q192,562 384,539 T768,523 T1152,477 T1536,338 T1920,289 L1920,0 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -20; 0 0" dur="10s" repeatCount="indefinite"/>
+    </path>
+    <path opacity="0.4" fill="url(#rgbGradient)" d="M0,0 L0,681 Q192,600 384,559 T768,527 T1152,480 T1536,337 T1920,278 L1920,0 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 15; 0 0" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <path opacity="0.4" fill="url(#rgbGradient)" d="M0,0 L0,572 Q192,546 384,515 T768,421 T1152,453 T1536,360 T1920,295 L1920,0 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -25; 0 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path opacity="0.4" fill="url(#rgbGradient)" d="M0,0 L0,646 Q192,636 384,597 T768,426 T1152,347 T1536,353 T1920,288 L1920,0 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 20; 0 0" dur="11s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

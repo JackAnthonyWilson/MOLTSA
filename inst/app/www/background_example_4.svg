@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1600 260" preserveAspectRatio="none">
+
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"></stop>
+      <stop offset="50%" stop-color="#020b26"></stop>
+      <stop offset="100%" stop-color="#000000"></stop>
+    </linearGradient>
+
+    <!-- Diagonal stripe gradient -->
+    <linearGradient id="stripeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.0"></stop>
+      <stop offset="40%" stop-color="#22c55e" stop-opacity="0.35"></stop>
+      <stop offset="60%" stop-color="#38bdf8" stop-opacity="0.5"></stop>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.0"></stop>
+    </linearGradient>
+
+    <!-- Secondary stripe gradient -->
+    <linearGradient id="stripeGrad2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0.0"></stop>
+      <stop offset="40%" stop-color="#a855f7" stop-opacity="0.35"></stop>
+      <stop offset="60%" stop-color="#f97316" stop-opacity="0.45"></stop>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0.0"></stop>
+    </linearGradient>
+
+    <!-- Glow dots -->
+    <radialGradient id="dotGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"></stop>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1600" height="260" fill="url(#bg)"></rect>
+
+  <!-- Faint diagonal grid lines -->
+  <g opacity="0.18">
+    <!-- vertical-ish lines -->
+    <g stroke="#0b1220" stroke-width="1">
+      <line x1="0" y1="260" x2="260" y2="0"></line>
+      <line x1="200" y1="260" x2="460" y2="0"></line>
+      <line x1="400" y1="260" x2="660" y2="0"></line>
+      <line x1="600" y1="260" x2="860" y2="0"></line>
+      <line x1="800" y1="260" x2="1060" y2="0"></line>
+      <line x1="1000" y1="260" x2="1260" y2="0"></line>
+      <line x1="1200" y1="260" x2="1460" y2="0"></line>
+      <line x1="1400" y1="260" x2="1660" y2="0"></line>
+    </g>
+  </g>
+
+  <!-- Main sweeping stripe (animated horizontally) -->
+  <g opacity="0.85">
+    <rect x="-800" y="-100" width="3200" height="200" fill="url(#stripeGrad)" transform="rotate(-10 800 130)">
+      <animate attributeName="x" values="-800; -1200; -800" dur="40s" repeatCount="indefinite"></animate>
+    </rect>
+  </g>
+
+  <!-- Secondary stripe, slower and lower -->
+</svg>

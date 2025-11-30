@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1600 300" preserveAspectRatio="xMidYMid slice">
+
+  <defs>
+    <!-- Gradient background -->
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"></stop>
+      <stop offset="50%" stop-color="#0f172a"></stop>
+      <stop offset="100%" stop-color="#020617"></stop>
+    </linearGradient>
+
+    <!-- Blurry blobs -->
+    <radialGradient id="blob1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"></stop>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"></stop>
+    </radialGradient>
+
+    <radialGradient id="blob2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.9"></stop>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"></stop>
+    </radialGradient>
+
+    <radialGradient id="blob3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.9"></stop>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1600" height="300" fill="url(#bg-grad)"></rect>
+
+  <!-- Animated blobs -->
+  <g opacity="0.9">
+    <!-- Blob 1 -->
+    <circle r="180" fill="url(#blob1)">
+      <animate attributeName="cx" values="150; 1450; 150" dur="45s" repeatCount="indefinite"></animate>
+      <animate attributeName="cy" values="80; 160; 80" dur="35s" repeatCount="indefinite"></animate>
+    </circle>
+
+    <!-- Blob 2 -->
+    <circle r="160" fill="url(#blob2)">
+      <animate attributeName="cx" values="1450; 300; 1450" dur="55s" repeatCount="indefinite"></animate>
+      <animate attributeName="cy" values="250; 120; 250" dur="40s" repeatCount="indefinite"></animate>
+    </circle>
+
+    <!-- Blob 3 -->
+    <circle r="150" fill="url(#blob3)">
+      <animate attributeName="cx" values="800; 200; 1400; 800" dur="60s" repeatCount="indefinite"></animate>
+      <animate attributeName="cy" values="150; 260; 60; 150" dur="45s" repeatCount="indefinite"></animate>
+    </circle>
+  </g>
+
+  <!-- Subtle moving lines -->
+  <g opacity="0.12">
+    <rect x="-400" y="70" width="2400" height="2">
+      <animate attributeName="y" values="70; 260; 70" dur="35s" repeatCount="indefinite"></animate>
+    </rect>
+    <rect x="-400" y="230" width="2400" height="2">
+      <animate attributeName="y" values="230; 40; 230" dur="50s" repeatCount="indefinite"></animate>
+    </rect>
+  </g>
+</svg>

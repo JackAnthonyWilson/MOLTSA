@@ -1,0 +1,219 @@
+#' h_mix UI Function
+#'
+#' @description A shiny Module.
+#'
+#' @param id,input,output,session Internal parameters for {shiny}.
+#'
+#' @noRd
+#'
+#' @importFrom shiny NS tagList
+mod_h_mix_ui <- function(id) {
+  ns <- NS(id)
+  tagList(
+    fluidRow(column(6, bs4Dash::box( title = "Select species", width = 12,status = "primary", solidHeader = TRUE,
+                                     fluidRow(column(5,shiny::selectInput(inputId = ns("first_box_input"), selected = "LiBr", choices = vec1, label = "species 1")),
+                                              column(5,shiny::selectInput(inputId = ns("second_box_input"), selected = "LiCl", choices = vec1, label = "species 2")),
+                                              column(2,style = "margin-top: 30px;", shinyWidgets::actionBttn(inputId = ns("plot_button"), label = "Plot", style = "material-flat", color="default", block = FALSE, class = "green-button"))),
+                                     shiny::radioButtons(inputId = ns("temp_button"), choices = c("Kelvin", "Celsius"), inline = TRUE, selected = "Kelvin", label = "Temperature units"),
+                                     DT::DTOutput(outputId =ns("summary_table")))),
+             column(6,bs4Dash::box(width=NULL, title = "Enthalpy of mixing plot",status = "primary", solidHeader = TRUE, highcharter::highchartOutput(outputId = ns("H_mix_plot")) |> shinycssloaders::withSpinner(type=3,color.background = "#2e8b57",color = "#2e8b57")))),
+
+    bs4Dash::box(title = "Enthalpy of mixing data",status = "primary", solidHeader = TRUE, DT::DTOutput(outputId = ns("H_mix_table")) |>
+                   shinycssloaders::withSpinner(type=3,color.background = "#2e8b57",color = "#2e8b57"), width=NULL),
+    tags$style(HTML(".dt-button {
+                background-color: #90d5ff;}" )),
+  )}
+
+vec1 <- data.table::fread("data/H_mix_list_choices.csv")$V1
+
+#' h_mix Server Functions
+#'
+#' @noRd
+mod_h_mix_server <- function(id){
+  moduleServer(id, function(input, output, session){
+    ns <- session$ns
+
+    source_data = reactiveVal(dplyr::tibble())
+    fetch_data = function() {
+
+      dat <- data.table::fread("./data/H_mix/H_mix_lit_data.csv")
+      if (input$second_box_input == "" & input$first_box_input == "") {
+
+      } else if (!input$second_box_input == "" & !input$first_box_input == "") {
+        dat = dat |>
+          dplyr::filter(`Species 1` %in% c(input$first_box_input, input$second_box_input),
+                        `Species 2` %in% c(input$first_box_input, input$second_box_input))
+      }else if (input$first_box_input == "") {
+        dat = dat |>
+          dplyr::filter(`Species 1` %in% c(input$second_box_input) |
+                          `Species 2` %in% c(input$second_box_input))
+      }else if (input$second_box_input == "") {
+        dat = dat |>
+          dplyr::filter(`Species 1` %in% c(input$first_box_input) |
+                          `Species 2` %in% c(input$first_box_input))
+      }
+      source_data(dat)
+    }
+
+    observeEvent(input$plot_button, {
+      fetch_data()
+      fetch_model()
+    })
+
+    # get the models
+    source_model = reactiveVal(dplyr::tibble())
+    fetch_model = function() {
+      dat_model <- data.table::fread("./data/H_mix/H_mix_models.csv")
+      if (input$second_box_input == "" &
+          input$first_box_input == "") {
+
+      } else if (!input$second_box_input == "" &
+                 !input$first_box_input == "") {
+        dat_model = dat_model |>
+          dplyr::filter(
+            `Species 1` %in% c(input$first_box_input, input$second_box_input),
+            `Species 2` %in% c(input$first_box_input, input$second_box_input)
+          )
+      } else if (input$first_box_input == "") {
+        dat_model = dat_model |>
+          dplyr::filter(
+            `Species 1` %in% c(input$second_box_input) |
+              `Species 2` %in% c(input$second_box_input)
+          )
+      } else if (input$second_box_input == "") {
+        dat_model = dat_model |>
+          dplyr::filter(
+            `Species 1` %in% c(input$first_box_input) |
+              `Species 2` %in% c(input$first_box_input)
+          )
+      }
+      source_model(dat_model)
+    }
+
+    # render the entire highchart with models + data
+    output$H_mix_plot <- highcharter::renderHighchart({
+      dat  <- source_data()
+      modl <- source_model()
+
+      # allow plotting if EITHER has data; only block when both are empty
+      validate(need(nrow(dat) > 0 || nrow(modl) > 0, "No data for this pair."))
+
+      if (input$temp_button == "Celsius") {
+        if ("Temp (K)" %in% names(dat))  dat  <- dplyr::mutate(dat,  `Temp (K)` = `Temp (K)` - 273)
+        if ("Temp (K)" %in% names(modl)) modl <- dplyr::mutate(modl, `Temp (K)` = `Temp (K)` - 273)
+      }
+
+      isolate({
+        first <- input$first_box_input
+        second <- input$second_box_input
+        choices_1 <- dplyr::tibble(x = c(first, second)) |>
+          dplyr::arrange(x) |>
+          dplyr::pull(x)
+      })
+      plot_unit <- ifelse(input$temp_button == "Kelvin", "K", "°C")
+
+      hc <- highcharter::highchart() |>
+        highcharter::hc_chart(zoomType = "xy", backgroundColor = "white") |>
+        highcharter::hc_xAxis(title = list(text = paste("Mole fraction", choices_1[2]))) |>
+        highcharter::hc_yAxis(title = list(text = "Enthalpy of mixing (J/mol)")) |>
+        highcharter::hc_title(text = paste0(choices_1[1], " – ", choices_1[2])) |>
+        highcharter::hc_tooltip(
+          useHTML = TRUE,
+          formatter = htmlwidgets::JS(glue::glue("
+        function() {{
+          const temp = this.point['Temp (K)'];
+          return '<b>Mole fraction {choices_1[2]}:</b> ' + this.x.toFixed(2) + '<br>' +
+                 '<b>Enthalpy of mixing (J/mol):</b> ' + this.y.toFixed(1) + '<br>' +
+                 '<b>Temperature ({plot_unit}):</b> ' + temp + '<br>' +
+                 '<b>Author:</b> ' + this.point.Author;
+        }}
+      "))
+        ) |>
+        highcharter::hc_exporting(enabled = TRUE)
+
+      # add model series only if it exists
+      if (nrow(modl) > 0) {
+        hc <- hc |>
+          highcharter::hc_add_series(
+            data = modl,
+            type = "spline",
+            highcharter::hcaes(x = `Mole frac species 2`, y = `deltaH`),
+            color = "black",
+            showInLegend = FALSE
+          )
+      }
+
+      # add literature series only if it exists
+      if (nrow(dat) > 0) {
+        hc <- hc |>
+          highcharter::hc_add_series(
+            data = dat,
+            type = "scatter",
+            highcharter::hcaes(x = `Mole frac species 2`, y = `deltaH`, group = Author)
+          )
+      }
+
+      hc
+    })
+
+    # data_table
+    output$H_mix_table <- DT::renderDataTable({
+      source_data() |>
+        dplyr::select(-any_of("type")) |>
+        DT::datatable(style = "bootstrap5",
+                      extensions = 'Buttons',
+                      options = list(
+                        paging = TRUE,
+                        pageLength = 100,
+                        scrollX = TRUE,
+                        scrollY = "400px",
+                        scrollCollapse = TRUE,
+                        buttons = c('copy', 'csv'),
+                        dom = 'Bfrtip',
+                        fixedHeader = list(top = TRUE),
+                        responsive = TRUE,
+                        columnDefs = list(list(
+                          className = 'dt-center', targets = "_all"
+                        ))
+                      ),
+                      selection = "multiple",
+                      rownames = FALSE
+        )
+    }, server = FALSE)
+
+    ### second Author List table
+    output$summary_table <- DT::renderDataTable({
+      source_data() |>
+        dplyr::select(Author, Link) |>
+        dplyr::distinct(Author, Link) |>
+        dplyr::mutate(Link = dplyr::case_when(stringr::str_detect(Link |> stringr::str_to_lower(), "doi.org") ~ paste0("<a href='https://", Link, "'>", Link, "</a>"),
+                                              stringr::str_detect(Link |> stringr::str_to_lower(), "osti.gov") ~ paste0("<a href='https://", Link, "'>", Link, "</a>"),
+                                              TRUE ~ Link)) |>
+        DT::datatable(style = "bootstrap5",
+                      extensions = 'Buttons',
+                      options = list(
+                        paging = TRUE,
+                        pageLength = 100,
+                        scrollX = TRUE,
+                        scrollY = "400px",
+                        scrollCollapse = TRUE,
+                        dom = 't',
+                        fixedHeader = list(top = TRUE),
+                        responsive = TRUE,
+                        columnDefs = list(list(
+                          className = 'dt-center', targets = "_all"
+                        ))
+                      ),
+                      selection = "multiple",
+                      rownames = FALSE,
+                      escape = FALSE
+        )
+    }, server = FALSE)
+
+  })}
+
+## To be copied in the UI
+# mod_h_mix_ui("h_mix_1")
+
+## To be copied in the server
+# mod_h_mix_server("h_mix_1")

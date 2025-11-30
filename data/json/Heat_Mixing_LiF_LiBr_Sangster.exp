@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Heat_Mixing_LiF_LiBr_Sangster",
+        "selected": true,
+        "comments": "",
+        "date": "08/Feb/2024 16:44:03",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Heat of mixing",
+        "phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "LiF",
+                "reference_phase": "MSFL#1",
+                "unit": "mol",
+                "value": [
+                    0
+                ]
+            },
+            {
+                "formula": "LiBr",
+                "reference_phase": "MSFL#1",
+                "unit": "mol",
+                "value": [
+                    0
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "temperature": {
+            "value": 1000,
+            "unit": "C"
+        },
+        "table": {
+            "id": [
+                1
+            ],
+            "active": [
+                true
+            ],
+            "weight": 1,
+            "reference": ""
+        },
+        "mv": [
+            {
+                "condition": "deltaH",
+                "value": [
+                    0
+                ],
+                "unit": "J"
+            }
+        ]
+    }
+]

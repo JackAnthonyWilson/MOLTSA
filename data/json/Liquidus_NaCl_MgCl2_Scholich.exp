@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Liquidus_NaCl_MgCl2_Scholich",
+        "selected": true,
+        "comments": "",
+        "date": "23/Oct/2024 15:26:47",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Liquidus temperature",
+        "liquid_phase": "MSCL#1",
+        "components": [
+            {
+                "formula": "NaCl",
+                "unit": "mole fraction",
+                "value": [
+                    0.593,
+                    0.694,
+                    0.8
+                ]
+            },
+            {
+                "formula": "MgCl2",
+                "unit": "mole fraction",
+                "value": [
+                    0.40700000000000003,
+                    0.30600000000000005,
+                    0.19999999999999996
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "FM3M#1",
+            "MgCl2_R3M_No.166(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3
+            ],
+            "active": [
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": ""
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    766.554,
+                    879.618,
+                    982.889
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

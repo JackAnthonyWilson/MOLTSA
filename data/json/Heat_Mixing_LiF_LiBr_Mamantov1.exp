@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Heat_Mixing_LiF_LiBr_Mamantov",
+        "selected": true,
+        "comments": "",
+        "date": "08/Feb/2024 16:47:03",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Heat of mixing",
+        "phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "LiF",
+                "reference_phase": "MSFL#1",
+                "unit": "mol",
+                "value": [
+                    0.143893524,
+                    0.20240808,
+                    0.250497073,
+                    0.333994945,
+                    0.540842966,
+                    0.72035976,
+                    0.791395366,
+                    0.845494186
+                ]
+            },
+            {
+                "formula": "LiBr",
+                "reference_phase": "MSFL#1",
+                "unit": "mol",
+                "value": [
+                    0.856106476,
+                    0.79759192,
+                    0.749502927,
+                    0.666005055,
+                    0.459157034,
+                    0.27964024,
+                    0.208604634,
+                    0.154505814
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "temperature": {
+            "value": 1000,
+            "unit": "C"
+        },
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Mamantov"
+        },
+        "mv": [
+            {
+                "condition": "deltaH",
+                "value": [
+                    -246.6922243,
+                    -302.9996985,
+                    -341.8040465,
+                    -323.0484372,
+                    -229.059978,
+                    -24.85072635,
+                    10.7032503,
+                    85.40710583
+                ],
+                "unit": "J"
+            }
+        ]
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Liquidus_NaF_CsF_Samuseva_Plyushchev",
+        "selected": true,
+        "comments": "",
+        "date": "14/Nov/2024 10:35:31",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Liquidus temperature",
+        "liquid_phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "CsF",
+                "unit": "mole fraction",
+                "value": [
+                    0.75,
+                    0.7,
+                    0.6,
+                    0.5,
+                    0.4,
+                    0.3,
+                    0.2,
+                    0.1,
+                    0.05,
+                    0.02,
+                    0
+                ]
+            },
+            {
+                "formula": "NaF",
+                "unit": "mole fraction",
+                "value": [
+                    0.25,
+                    0.30000000000000004,
+                    0.4,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    0.95,
+                    0.98,
+                    1
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "CsF_FM3M_No.225(s)",
+            "NaF_FM3M_No.225(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": ""
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    933,
+                    953,
+                    1027,
+                    1098,
+                    1138,
+                    1158,
+                    1173,
+                    1198,
+                    1213,
+                    1253,
+                    1268
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

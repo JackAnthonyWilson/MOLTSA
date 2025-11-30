@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Heat_of_Mixing_CsF_NaF_Macleod",
+        "selected": true,
+        "comments": "",
+        "date": "19/Nov/2024 15:42:02",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Heat of mixing",
+        "phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "CsF",
+                "reference_phase": "MSFL#1",
+                "unit": "mol",
+                "value": [
+                    0.5
+                ]
+            },
+            {
+                "formula": "NaF",
+                "reference_phase": "MSFL#1",
+                "unit": "mol",
+                "value": [
+                    0.5
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "temperature": {
+            "value": 1273,
+            "unit": "K"
+        },
+        "table": {
+            "id": [
+                1
+            ],
+            "active": [
+                true
+            ],
+            "weight": 1,
+            "reference": "Macleod"
+        },
+        "mv": [
+            {
+                "condition": "deltaH",
+                "value": [
+                    836
+                ],
+                "unit": "J"
+            }
+        ]
+    }
+]

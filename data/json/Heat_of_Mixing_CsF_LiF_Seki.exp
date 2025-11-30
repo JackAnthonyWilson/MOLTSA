@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Heat_of_Mixing_CsF_LiF_Seki",
+        "selected": true,
+        "comments": "Clara mentioned that these data points are not very accurate. ",
+        "date": "19/Nov/2024 15:45:59",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Heat of mixing",
+        "phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "CsF",
+                "reference_phase": "MSFL#1",
+                "unit": "mol",
+                "value": [
+                    1,
+                    0.9,
+                    0.801219512,
+                    0.7,
+                    0.6,
+                    0.5,
+                    0.401219512,
+                    0.301219512,
+                    0.2,
+                    0.1,
+                    0
+                ]
+            },
+            {
+                "formula": "LiF",
+                "reference_phase": "MSFL#1",
+                "unit": "mol",
+                "value": [
+                    0,
+                    0.1,
+                    0.198780488,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.598780488,
+                    0.698780488,
+                    0.8,
+                    0.9,
+                    1
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "temperature": {
+            "value": 1024,
+            "unit": "K"
+        },
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Seki"
+        },
+        "mv": [
+            {
+                "condition": "deltaH",
+                "value": [
+                    0,
+                    -1582.248521,
+                    -3056.804734,
+                    -4282.840237,
+                    -5293.491124,
+                    -5840.236686,
+                    -5947.928994,
+                    -5401.183432,
+                    -4200,
+                    -2352.662722,
+                    0
+                ],
+                "unit": "J"
+            }
+        ]
+    }
+]

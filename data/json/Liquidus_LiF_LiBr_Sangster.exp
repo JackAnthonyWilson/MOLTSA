@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Liquidus_LiF_LiBr_Sangster",
+        "selected": true,
+        "comments": "",
+        "date": "08/Feb/2024 16:53:22",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Liquidus temperature",
+        "liquid_phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "LiF",
+                "unit": "mole fraction",
+                "value": [
+                    0.000520403,
+                    0.00971506,
+                    0.15163077,
+                    0.240967479,
+                    0.272233496,
+                    0.301959226,
+                    0.402444063,
+                    0.501851484,
+                    0.601211833,
+                    0.802941192,
+                    1.003071423
+                ]
+            },
+            {
+                "formula": "LiBr",
+                "unit": "mole fraction",
+                "value": [
+                    0.999479597,
+                    0.99028494,
+                    0.84836923,
+                    0.759032521,
+                    0.727766504,
+                    0.698040774,
+                    0.597555937,
+                    0.498148516,
+                    0.39878816699999997,
+                    0.19705880799999997,
+                    -0.003071422999999962
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "FM3M#1",
+            "FM3M#2"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Sangster 1987"
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    551.4053494,
+                    549.1176686,
+                    487.1871045,
+                    448.577391,
+                    472.026904,
+                    493.5558949,
+                    575.8072783,
+                    641.9444764,
+                    694.2708606,
+                    781.6648187,
+                    0
+                ],
+                "unit": "C"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Eutectic_LiF_LiBr_Sangster",
+        "selected": true,
+        "comments": "",
+        "date": "08/Feb/2024 16:56:53",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Solidus temperature",
+        "liquid_phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "LiF",
+                "unit": "mole fraction",
+                "value": [
+                    0.29,
+                    0.24,
+                    0.23,
+                    0.25
+                ]
+            },
+            {
+                "formula": "LiBr",
+                "unit": "mole fraction",
+                "value": [
+                    0.71,
+                    0.76,
+                    0.77,
+                    0.75
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "FM3M#1",
+            "FM3M#2"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": "Sangster 1987"
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    453,
+                    448,
+                    458,
+                    448
+                ],
+                "unit": "C"
+            }
+        ],
+        "add_dual_error": false
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "name": "Solidus_KF_CsF_Samuseva",
+        "selected": true,
+        "comments": "",
+        "date": "14/Nov/2024 12:07:37",
+        "user_defined": false,
+        "source": "calphad_optimizer",
+        "class": "Solidus temperature",
+        "liquid_phase": "MSFL#1",
+        "components": [
+            {
+                "formula": "CsF",
+                "unit": "mole fraction",
+                "value": [
+                    0.03,
+                    0.05,
+                    0.1,
+                    0.2,
+                    0.4,
+                    0.47,
+                    0.5,
+                    0.53,
+                    0.57,
+                    0.6,
+                    0.63,
+                    0.7
+                ]
+            },
+            {
+                "formula": "KF",
+                "unit": "mole fraction",
+                "value": [
+                    0.97,
+                    0.95,
+                    0.9,
+                    0.8,
+                    0.6,
+                    0.53,
+                    0.5,
+                    0.47,
+                    0.43000000000000005,
+                    0.4,
+                    0.37,
+                    0.30000000000000004
+                ]
+            }
+        ],
+        "pressure": {
+            "value": 1,
+            "unit": "atm"
+        },
+        "phases": [
+            "CsF_FM3M_No.225(s)",
+            "KF_FM3M_No.225(s)"
+        ],
+        "table": {
+            "id": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "active": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "weight": 1,
+            "reference": ""
+        },
+        "mv": [
+            {
+                "condition": "T",
+                "value": [
+                    893.15,
+                    898.15,
+                    898.15,
+                    898.15,
+                    898.15,
+                    893.15,
+                    895.15,
+                    895.15,
+                    898.15,
+                    898.15,
+                    898.15,
+                    893.15
+                ],
+                "unit": "K"
+            }
+        ],
+        "add_dual_error": false
+    }
+]
