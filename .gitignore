@@ -1,3 +1,6 @@
 .Rproj.user
 gmail_key
 my_gmail_key
+inst/doc
+/doc/
+/Meta/

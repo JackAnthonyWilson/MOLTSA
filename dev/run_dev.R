@@ -14,5 +14,3 @@ golem::document_and_reload()
 # Run the application
 run_app()
 
-packs <- c("Ternary")
-install.packages(setdiff(packs, installed.packages()[, "Package"]))
