@@ -1129,16 +1129,6 @@ CsF,KF,0.9,0.1,948.15,Samuseva,liquidus,Liquidus_CsF_KF_Samuseva.exp
 CsF,KF,0.95,0.05,953.15,Samuseva,liquidus,Liquidus_CsF_KF_Samuseva.exp
 CsF,KF,0.97,0.03,955.15,Samuseva,liquidus,Liquidus_CsF_KF_Samuseva.exp
 CsF,KF,1,0,958.15,Samuseva,liquidus,Liquidus_CsF_KF_Samuseva.exp
-CsF,KF,0.85,0.15,932,Internal work at USC,liquidus,Liquidus_CsF_KF_USC_Cooling.exp
-CsF,KF,0.85,0.15,949,Internal work at USC,liquidus,Liquidus_CsF_KF_USC_Cooling.exp
-CsF,KF,0.68,0.32,932.2,Internal work at USC,liquidus,Liquidus_CsF_KF_USC_Cooling.exp
-CsF,KF,0.68,0.32,910,Internal work at USC,liquidus,Liquidus_CsF_KF_USC_Cooling.exp
-CsF,KF,1,0,974.45,Internal work at USC,liquidus,Liquidus_CsF_KF_USC_Cooling.exp
-CsF,KF,0.85,0.15,925.3,Internal work at USC,liquidus,Liquidus_CsF_KF_USC_Heating.exp
-CsF,KF,0.85,0.15,950.2,Internal work at USC,liquidus,Liquidus_CsF_KF_USC_Heating.exp
-CsF,KF,0.68,0.32,928.5,Internal work at USC,liquidus,Liquidus_CsF_KF_USC_Heating.exp
-CsF,KF,0.68,0.32,904.3,Internal work at USC,liquidus,Liquidus_CsF_KF_USC_Heating.exp
-CsF,KF,1,0,975.95,Internal work at USC,liquidus,Liquidus_CsF_KF_USC_Heating.exp
 CsF,LiF,0.7,0.3,828.03,Bukhalova and Sementsova,liquidus,Liquidus_CsF_LiF_Bukhalova_Sementsova.exp
 CsF,LiF,0.8,0.2,886.25,Bukhalova and Sementsova,liquidus,Liquidus_CsF_LiF_Bukhalova_Sementsova.exp
 CsF,LiF,0.9,0.1,933.15,Bukhalova and Sementsova,liquidus,Liquidus_CsF_LiF_Bukhalova_Sementsova.exp
@@ -1150,7 +1140,6 @@ CsF,LiF,0.449,0.551,831.6,Piro,liquidus,Liquidus_CsF_LiF_Piro.exp
 CsF,LiF,0.7,0.3,805.39,,liquidus,Liquidus_CsF_LiF_Thoma.exp
 CsF,LiF,0.8,0.2,870.08,,liquidus,Liquidus_CsF_LiF_Thoma.exp
 CsF,LiF,0.9,0.1,928.3,,liquidus,Liquidus_CsF_LiF_Thoma.exp
-CsF,LiF,0.75,0.25,840.2,,liquidus,Liquidus_CsF_LiF_USC.exp
 CsF,NaF,1,0,976.15,,liquidus,Liquidus_CsF_NaF_Deadmore.exp
 CsF,NaF,0.9,0.1,924.6,,liquidus,Liquidus_CsF_NaF_Deadmore.exp
 CsF,NaF,0.73,0.27,908.83,,liquidus,Liquidus_CsF_NaF_Deadmore.exp
@@ -1344,7 +1333,6 @@ CsF,LiF,0.1,0.9,1086.79,Thoma,liquidus,Liquidus_LiF_CsF_Thoma.exp
 CsF,LiF,0.2,0.8,1036.66,Thoma,liquidus,Liquidus_LiF_CsF_Thoma.exp
 CsF,LiF,0.3,0.7,966.31,Thoma,liquidus,Liquidus_LiF_CsF_Thoma.exp
 CsF,LiF,0.4,0.6,874.12,Thoma,liquidus,Liquidus_LiF_CsF_Thoma.exp
-CsF,LiF,0.35,0.65,945,Internal work at USC,liquidus,Liquidus_LiF_CsF_USC.exp
 LiBr,LiF,0.999479597,0.000520403,824.4053494,Sangster (1987),liquidus,Liquidus_LiF_LiBr_Sangster.exp
 LiBr,LiF,0.99028494,0.00971506,822.1176686,Sangster (1987),liquidus,Liquidus_LiF_LiBr_Sangster.exp
 LiBr,LiF,0.84836923,0.15163077,760.1871045,Sangster (1987),liquidus,Liquidus_LiF_LiBr_Sangster.exp
@@ -1661,9 +1649,6 @@ CsF,LiF,0.651,0.349,752.2,Piro,solidus,Solidus_CsF_LiF_Piro.exp
 CsF,LiF,0.711,0.289,752.6,Piro,solidus,Solidus_CsF_LiF_Piro.exp
 CsF,LiF,0.52,0.48,752.7,Piro,solidus,Solidus_CsF_LiF_Piro.exp
 CsF,LiF,0.555,0.445,752.6,Piro,solidus,Solidus_CsF_LiF_Piro.exp
-CsF,LiF,0.55,0.45,742.6,Internal work at USC,solidus,Solidus_CsF_LiF_USC.exp
-CsF,LiF,0.75,0.25,758.6,Internal work at USC,solidus,Solidus_CsF_LiF_USC.exp
-CsF,LiF,0.55,0.45,763,Internal work at USC,solidus,Solidus_CsF_LiF_USC.exp
 CsF,NaF,0.05,0.95,886.4,Piro,solidus,Solidus_CsF_NaF_Piro.exp
 CsF,NaF,0.12,0.88,890.1,Piro,solidus,Solidus_CsF_NaF_Piro.exp
 CsF,NaF,0.3,0.7,890.95,Piro,solidus,Solidus_CsF_NaF_Piro.exp
@@ -1822,8 +1807,6 @@ CsF,LiF,0.349,0.651,765.7,Piro,solidus,Solidus_LiF_CsF_Piro.exp
 CsF,LiF,0.449,0.551,765.7,Piro,solidus,Solidus_LiF_CsF_Piro.exp
 CsF,LiF,0.45,0.55,766.8,Piro,solidus,Solidus_LiF_CsF_Piro.exp
 CsF,LiF,0.477,0.523,765.8,Piro,solidus,Solidus_LiF_CsF_Piro.exp
-CsF,LiF,0.35,0.65,743.9,Internal work at USC,solidus,Solidus_LiF_CsF_USC.exp
-CsF,LiF,0.35,0.65,757,Internal work at USC,solidus,Solidus_LiF_CsF_USC.exp
 CsF,LiF,0.151,0.849,752.1,Piro,solidus,Solidus_LiF_CsF2Li_Piro.exp
 CsF,LiF,0.253,0.747,752.4,Piro,solidus,Solidus_LiF_CsF2Li_Piro.exp
 CsF,LiF,0.349,0.651,752.5,Piro,solidus,Solidus_LiF_CsF2Li_Piro.exp

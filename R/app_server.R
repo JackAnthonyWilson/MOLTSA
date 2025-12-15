@@ -24,6 +24,8 @@ app_server <- function(input, output, session) {
 output$auth_output = renderPrint({
   reactiveValuesToList(res_auth)
 })
+
+
     # Your application server logic
   mod_splashpage_server("splashpage_1")
   mod_h_mix_server("h_mix_1")

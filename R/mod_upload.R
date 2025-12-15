@@ -74,20 +74,32 @@ mod_upload_server <- function(id){
           length <- uploaded_file |> nrow()
           authors <- uploaded_file |> dplyr::distinct(Author) |> dplyr::arrange(Author)|> dplyr::pull(Author) |> paste(collapse = ", ")
           tagList(
-            glue::glue("You are about to upload {length} rows from the following authors: {authors}.") |> HTML(),
-            shiny::textInput(ns("email_address"), label = "Enter your email address to continue", placeholder = "JohnSmith@sc.edu")
+            glue::glue("You are about to upload {length} rows from the following authors: {authors}. <br><br>
+
+                       <i>Submitted datasets and associated contributor metadata are stored for scientific curation and dissemination within MOLTSA. Personal information is limited to what is necessary for attribution and platform operation. By submitting data, you confirm your consent in accordance with the <a href='https://moltsa.com/privacy-policy.html' target='_blank' rel='noopener noreferrer'>MOLTSA Privacy Policy</a>. </i>
+<br><br>
+<b>By clicking upload, you are agreeing to the MOLTSA Privacy Policy and confirm you have the right to submit these data.</b>
+                       ") |> HTML(),
+            shiny::textInput(ns("email_address"), label ="Email address", placeholder = "JohnSmith@sc.edu")
             )
         })
 
-        shiny::showModal(shiny::modalDialog(title = "Ready to upload?", easyClose = TRUE,fade = FALSE,
-                                            footer = tagList(shinyWidgets::actionBttn(ns("upload"), "upload", style = "material-flat", block=FALSE),
-                                                             shiny::modalButton("Cancel")),
+        shiny::showModal(shiny::modalDialog(title = "Ready to upload?", easyClose = FALSE,fade = TRUE,
+                                            footer = tagList(shinyWidgets::actionBttn(ns("upload"), "Upload", style = "material-flat", block=FALSE, color = "primary"),
+                                                             shinyWidgets::actionBttn(ns("close_modal"), "Cancel", style = "material-flat", block=FALSE)
+                                                             #shiny::modalButton("Cancel")
+                                                             ),
                                             shiny::uiOutput(ns("data_validate_ui"))))
 
         }, error = function(i){
         shinyWidgets::show_toast(title ="Error", text = i$message, width = 900,type = "error",timer = 20000)
       })
 
+    })
+
+
+    observeEvent(input$close_modal, {
+      shiny::removeModal()
     })
 
     observeEvent(input$upload, {

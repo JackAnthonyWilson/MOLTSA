@@ -28,15 +28,15 @@ tags$head(tags$style(HTML("
 
 app_ui <- function(request) {
   tagList(
+    fresh::use_theme(my_theme),
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # Your application UI logic
     bs4Dash::dashboardPage(
-
       fullscreen = FALSE,
       help = NULL,
       dark = NULL,
-      freshTheme = TRUE,
+      freshTheme = my_theme,
       header = bs4Dash::dashboardHeader(
         title = tags$a(
           href = "https://moltsa.com",
@@ -73,7 +73,6 @@ app_ui <- function(request) {
         )
       ),
       body = bs4Dash::dashboardBody(
-        fresh::use_theme(my_theme),
         bs4Dash::tabItems(bs4Dash::tabItem("phase_equ", mod_splashpage_ui("splashpage_1")),
                           bs4Dash::tabItem("H_mix", mod_h_mix_ui("h_mix_1")),
                        #   bs4Dash::tabItem("activity", mod_activity_ui("activity_1")),
