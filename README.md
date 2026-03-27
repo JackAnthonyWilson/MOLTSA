@@ -38,7 +38,7 @@ http://moltsa.com
 - `data/` – packaged data objects
 - `dev/` – development scripts (utilities)
 - `man/` – documentation generated from roxygen2
-- `.Rbuildignore`, `.rscignore`, `.gitignore` – build/deploy/version-control ignores
+- `.Rbuildignore`, `.gitignore` – build/deploy/version-control ignores
 - `README.md` – readme file for moltsa
 
 ---
