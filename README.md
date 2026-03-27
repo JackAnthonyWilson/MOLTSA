@@ -1,6 +1,9 @@
 # **MOLTSA – Molten Salt Thermochemical Data Platform**
 
-**MOLTSA** is an open, web-based R/Shiny application for accessing, visualizing, and analyzing thermochemical data relevant to molten-salt research and CALPHAD workflows. It overlays literature datasets with CALPHAD-modeled properties (e.g., phase equilibria and $\Delta _{mix} H$) and provides utilities that shorten the path from experimental data to validated thermodynamic model inputs.
+**MOLTSA** is an open, web-based R-Shiny application for accessing, visualizing, and analyzing thermochemical data relevant to molten salt reactor research. It overlays literature datasets with CALPHAD-modeled properties (e.g., phase equilibria and $\Delta _{mix} H$) and provides utilities that shorten the path from experimental data to validated thermodynamic model inputs.
+
+A live development of the application is available at:
+http://moltsa.com
 
 ---
 
@@ -8,31 +11,21 @@
 
 ### **Visualization**
 
-- Interactive pseudo-binary phase diagram viewer with literature/model overlays and export
+- Interactive pseudo-binary phase diagram viewer with experimental/model overlays and export functions
 - Interactive enthalpy of mixing plots with linked metadata tables
-- **3D ternary / pseudo-ternary viewer** supporting FactSage® `.fig` surfaces with optional experimental CSV overlays
+- 3D ternary / pseudo-ternary viewer supporting FactSage® `.fig` files and experimental data overlays
 
 ### **CALPHAD-adjacent utilities**
 
-- **Optimizer-file retrieval** (FactSage® Optimizer-compatible inputs)
-- **δ₁₂** parameter calculation for liquid–liquid $\Delta _{mix} H$ analyses/correlations
-- **Heat-capacity fitting** (piecewise Maier–Kelley coefficients directly usable in Gibbs-energy minimization codes)
-- **DSC pipelines** (temperature calibration, uncertainty propagation, application of the IUPAC zero-rate method where applicable)
+- Optimizer-file retrieval (FactSage Optimizer-compatible)
+- δ₁₂ parameter calculation for liquid–liquid $\Delta _{mix} H$ correlations
+- Heat capacity fitting (piecewise Maier–Kelley coefficients directly usable in Gibbs free energy minimization codes)
+- DSC/thermal analysis tools (temperature calibration, uncertainty propagation, application of the IUPAC zero-rate method)
 
-### **FAIR-aligned data layer**
+### **FAIR-aligned data
 
-- Curated CSV/JSON datasets with embedded metadata (units, composition basis, method, provenance, DOI when available)
-- Validation at ingest + unit/basis harmonization designed for CALPHAD-style workflows
-
----
-
-## **Technology stack (high level)**
-
-- **Framework & packaging:** Shiny + golem (production-grade modular structure; explicit dependencies),
-- **Data handling:** data.table, dplyr,
-- **Visualization/UI:** ggplot2, plotly, highcharter, DT, rhandsontable, bs4Dash, shinyWidgets, shinythemes, shinycssloaders,
-- **Auth (optional):** shinymanager,
-- **Communication:** blastula
+- Curated CSV/JSON thermochemical datasets with traceable metadata 
+- Validation at ingest + unit/basis harmonization designed for CALPHAD
 
 ---
 
@@ -45,38 +38,92 @@
 - `data/` – packaged data objects
 - `dev/` – development scripts (utilities)
 - `man/` – documentation generated from roxygen2
-- `tests/` – tests (testthat)
 - `.Rbuildignore`, `.rscignore`, `.gitignore` – build/deploy/version-control ignores
 - `README.md` – readme file for moltsa
 
 ---
 
-## **Installation (recommended)**
+## **Local installation**
 
-Because this is a **golem-packaged Shiny app**, the cleanest workflow is to install it like an R package.
+For most users, the hosted deployment at [moltsa.com](https://moltsa.com) is the preferred access route; local installation is primarily intended for development or offline use. A local build of MOLTSA requires installation of the R programming language and some R packages.
 
-### 1) Clone
+### Windows
+
+#### Prerequisites
+
+Install the following:
+- **R** (version 4.3 or later recommended)
+- **RStudio** (optional, but helpful)
+- **Rtools** for the installed R version
+#### Installation steps
+1. Clone or download the repository.
+2. Open R or RStudio in the project directory.
+3. Install required R packages:
+
+```
+install.packages(c("remotes", "pkgload"))  
+remotes::install_deps()
+```
+
+
+4. Load the application package and launch the app:
+```
+pkgload::load_all()  
+run_app()
+```
+
+The app will open in a web browser, or provide the local URL if it does not open automatically.
+
+#### Notes
+- If local installation is not desirable, users can access the deployed version of the application directly at moltsa.com.
+
+### Linux
+
+#### 1) Install R
+```
+sudo apt install r-base
+```
+#### 2) Install system dependencies
+```
+sudo apt update
+sudo apt install -y \
+  build-essential \
+  cmake \
+  pkg-config \
+  libuv1-dev \
+  libssl-dev \
+  libcurl4-openssl-dev \
+  libxml2-dev
+```
+
+#### 2) Clone repository
 
 ```
 git clone https://github.com/JackAnthonyWilson/MOLTSA.git
 cd MOLTSA
 ```
 
-### 2) Install R dependencies
-
-In R:
-
+#### 3) Install R dependencies and run locally
+in R:
 ```
-install.packages(c("devtools", "remotes")) 
-
-# installs Imports from DESCRIPTION devtools::install_deps(dependencies = TRUE)
-```
-
-### 3) Run locally
-```
-shiny::runApp("app.R")`
+install.packages(c("pkgload", "remotes"))  
+remotes::install_deps()  
+pkgload::load_all()  
+run_app()
 ```
 
+If you are running WSL and do not have a browser installed, paste the port directly into your browser in Windows.
+i.e., when you see:
+```
+Listening on http://127.0.0.1:XXXX
+```
+go to your browser and input
+```
+http://localhost:XXXX
+```
+
+#### Notes
+- If local installation is not desirable, users can access the deployed version of the application directly at moltsa.com.
 ---
 
 ## **R package dependencies**
@@ -110,29 +157,19 @@ Declared in `DESCRIPTION` under `Imports:`:
 
 MOLTSA is organized individual modules, including:
 
-- **Phase Diagrams** — pseudo-binary phase equilibria data with literature/model overlays
-- **Enthalpy of Mixing** — experimental $\Delta _{mix}H$ data visualization with modeled values
-- **Ternary `.fig` Viewer** — interactive 3D phase equilibria viewer and (FactSage® `.fig` + optional experimental CSV overlays)
-- **Optimizer Files** — search/filter/download optimizer-ready inputs for FactSage® Optimizer workflows
-- **Parametric Descriptors** — δ₁₂ calculator
-- **Heat Capacity** — Maier–Kelley parameter fitting for CALPHAD-ready workflows
-- **DSC Tools** — calibration, uncertainty propagation, and application of the IUPAC zero-rate extrapolation when multiple ramp rates are provided
-
----
-
-## **Data schema (summary)**
-
-All experimental and computational datasets conform to a unified schema designed for CALPHAD-style modeling and automated re-optimization workflows:
-
-- **Metadata:** dataset identifiers, chemical system, phase information, authorship, source reference, DOI (where available)
-- **Data fields:** temperature, composition (mole fraction), and property-specific quantities
-- **Provenance:** method (e.g., DSC/PPMS), processing steps, calibration details
+- Phase Diagrams – pseudo-binary phase equilibria data with literature/model overlays
+- Enthalpy of Mixing – experimental $\Delta _{mix}H$ data visualization with modeled values
+- Ternary `.fig` Viewer – interactive 3D phase equilibria viewer and (FactSage® `.fig` + optional experimental CSV overlays)
+- Optimizer Files – search/filter/download optimizer files 
+- Parametric Descriptors – δ₁₂ calculator
+- Heat Capacity – Maier–Kelley parameter fitting 
+- DSC Tools – calibration, uncertainty propagation, and application of the IUPAC zero-rate method
 
 ---
 
 ## **Data policy and attribution**
 
-MOLTSA stores **extracted numeric datasets and metadata** (CSV/JSON) and does **not** store or redistribute copyrighted full-text content (e.g., PDFs). Attribution is maintained for all datasets (including DOI where available), and takedown/removal is supported upon rights-holder request.
+MOLTSA stores extracted numeric datasets and metadata (CSV/JSON) and does not store or redistribute copyrighted full-text content (e.g., PDFs). Attribution is maintained for all datasets (including DOI where available), and takedown/removal is supported upon rights-holder request. The full privacy policy is hosted on a static webpage at moltsa.com/privacy-policy.html
 
 ---
 

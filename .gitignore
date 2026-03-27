@@ -4,3 +4,7 @@ my_gmail_key
 inst/doc
 /doc/
 /Meta/
+.Rhistory
+.RData
+.Rproj.user/
+.here
