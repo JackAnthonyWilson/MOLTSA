@@ -22,7 +22,7 @@ http://moltsa.com
 - Heat capacity fitting (piecewise Maier–Kelley coefficients directly usable in Gibbs free energy minimization codes)
 - DSC/thermal analysis tools (temperature calibration, uncertainty propagation, application of the IUPAC zero-rate method)
 
-### **FAIR-aligned data
+### **FAIR-aligned data**
 
 - Curated CSV/JSON thermochemical datasets with traceable metadata 
 - Validation at ingest + unit/basis harmonization designed for CALPHAD
@@ -153,7 +153,7 @@ Declared in `DESCRIPTION` under `Imports:`:
 
 ---
 
-## **Usage overview
+## **Usage overview**
 
 MOLTSA is organized individual modules, including:
 
@@ -169,7 +169,7 @@ MOLTSA is organized individual modules, including:
 
 ## **Data policy and attribution**
 
-MOLTSA stores extracted numeric datasets and metadata (CSV/JSON) and does not store or redistribute copyrighted full-text content (e.g., PDFs). Attribution is maintained for all datasets (including DOI where available), and takedown/removal is supported upon rights-holder request. The full privacy policy is hosted on a static webpage at moltsa.com/privacy-policy.html
+MOLTSA stores extracted numeric datasets and metadata (CSV/JSON) and does not store or redistribute copyrighted full-text content (e.g., PDFs). Attribution is maintained for all datasets (including DOI where available), and takedown/removal is supported upon rights-holder request. The full privacy policy is hosted on a static webpage at [moltsa.com/privacy-policy.html](https://moltsa.com/privacy-policy.html)
 
 ---
 
