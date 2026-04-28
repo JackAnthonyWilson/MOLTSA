@@ -179,6 +179,13 @@ Released under **GPL-3.0** (see `LICENSE` / `LICENSE.md`).
 
 ---
 
+## Citing MOLTSA
+
+If you used MOLTSA, please consider citing:
+
+J. A. Wilson *et al*., “MOLTSA: An R Shiny Platform for Molten-Salt Thermochemical Data Management, Analysis, and Assessment", *Journal of Open Research Software*, vol. **14**, no. 1, Apr. 2026, doi: 10.5334/jors.685.
+
+
 ## **Contact**
 
 **Developer:** Jack A. Wilson  
