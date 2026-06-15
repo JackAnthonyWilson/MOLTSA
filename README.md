@@ -2,7 +2,7 @@
 
 **MOLTSA** is an open, web-based R-Shiny application for accessing, visualizing, and analyzing thermochemical data relevant to molten salt reactor research. It overlays literature datasets with CALPHAD-modeled properties (e.g., phase equilibria and $\Delta _{mix} H$) and provides utilities that shorten the path from experimental data to validated thermodynamic model inputs.
 
-A live development of the application is available at:
+A live up-to-date deployment is available at:
 http://moltsa.com
 
 ---
@@ -190,3 +190,18 @@ J. A. Wilson *et al*., “MOLTSA: An R Shiny Platform for Molten-Salt Thermochem
 
 **Developer:** Jack A. Wilson  
 **Email:** jackwilson.mchem@gmail.com
+
+## **Support MOLTSA**
+MOLTSA is provided as a free scientific resource.
+
+Maintaining the application requires ongoing time, hosting, domain registration, and software upkeep. If you or your organisation would like to support the continued maintenance and development of MOLTSA, please contact Jack A. Wilson to discuss possible support.
+
+You can also support MOLTSA by contributing high-quality thermochemical data, reporting issues, suggesting new features, or providing feedback on existing tools.
+
+For queries, data contributions, feature requests, or support discussions, please contact:
+
+Jack A. Wilson
+
+jackwilson.mchem@gmail.com
+
+Contributions do not provide preferential access, consulting, or influence over the scientific content of the database.
